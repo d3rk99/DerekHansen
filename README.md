@@ -56,7 +56,7 @@ Portfolio_DerekHansen/
     │   ├── project-educational.svg
     │   ├── project-collab.svg
     │   └── project-collab-2.svg
-    ├── videos/
+    ├── Videos/
     │   └── your-video-file.mp4      (optional, for self-hosted project media)
     └── resume/
         └── derek-hansen-resume.pdf  (add this file)
@@ -147,7 +147,7 @@ Implementation note: embeds are rendered through `youtube-nocookie.com` with an 
 #### 2) Self-hosted/raw video file
 Use this when the video cannot be on YouTube.
 
-1. Add your video file to `assets/videos/` (example: `assets/videos/client-cut.mp4`).
+1. Add your video file to `assets/Videos/` (example: `assets/Videos/client-cut.mp4`).
 2. Reference it in the project entry with `media.type = 'video'`.
 3. Optionally provide a `poster` image shown before playback starts.
 
@@ -157,7 +157,7 @@ Use this when the video cannot be on YouTube.
   category: 'Corporate',
   media: {
     type: 'video',
-    src: 'assets/videos/client-cut.mp4',
+    src: 'assets/Videos/client-cut.mp4',
     poster: 'assets/images/project-corporate.svg' // optional
   },
   image: 'assets/images/project-corporate.svg',

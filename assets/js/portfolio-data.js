@@ -5,7 +5,7 @@
 // 1) YouTube embed:
 //    media: { type: 'youtube', url: 'https://www.youtube.com/watch?v=VIDEO_ID' }
 // 2) Self-hosted video:
-//    media: { type: 'video', src: 'assets/videos/your-video.mp4', poster: 'assets/images/your-poster.jpg' }
+//    media: { type: 'video', src: 'assets/Videos/your-video.mp4', poster: 'assets/images/your-poster.jpg' }
 // 3) Static image fallback (default):
 //    image: 'assets/images/project-image.svg'
 window.portfolioItems = [
@@ -76,7 +76,7 @@ window.portfolioItems = [
     },
     image: 'assets/Videos/MementoMori.png',
     description: 'Momentum Mori is a commissioned machinima project and the first video I produced for an external client within a gaming community. What began as a promotional piece for an upcoming seasonal patch quickly evolved into a narrative-driven work, laying the foundation for an ongoing story arc and brand identity. The project ultimately expanded beyond a single video, seeding the development of a mini-series centered around the featured female character. This piece highlights how narrative filmmaking can exist beyond traditional production environments. Created entirely within a game engine, the project relied on in-game tools, player coordination, and creative staging rather than physical cameras or sets. I directed the production, coordinated participants as actors, and handled capture and post-production, shaping performances and scenes within the limitations of the medium. Momentum Mori demonstrates that strong storytelling, cinematography, and pacing are not dependent on traditional equipment, but on an understanding of visual language and collaboration. By leveraging a game as the production environment, this project explores how alternative media spaces can be used to create compelling, narrative-driven work.',
-    roles: 'Writer, Producer, Dicector, Editor',
+    roles: 'Writer, Producer, Director, Editor',
     link: 'https://www.youtube.com/watch?v=yppRCxGFOGE&t'
   },
   {
@@ -84,7 +84,7 @@ window.portfolioItems = [
     tags: ['Narrative'],
     media: {
       type: 'video',
-      src: 'assets/videos/Old Man Farlen - Phillip Schoen (1080p, h264, youtube).mp4',
+      src: 'assets/Videos/Old Man Farlen - Phillip Schoen (1080p, h264, youtube).mp4',
       poster: 'assets/Videos/OldManFarlen.png'
     },
     image: 'assets/Videos/OldManFarlen.png',
@@ -97,7 +97,7 @@ window.portfolioItems = [
     tags: ['Tech Preview'],
     media: {
       type: 'video',
-      src: 'assets/videos/YTDown.com_YouTube_MiniCar-Moddle-Test_Media_CEeKiE7FEkQ_001_1080p.mp4',
+      src: 'assets/Videos/YTDown.com_YouTube_MiniCar-Moddle-Test_Media_CEeKiE7FEkQ_001_1080p.mp4',
       poster: 'assets/Videos/3Dcars.png'
     },
     image: 'assets/Videos/3Dcars.png',
