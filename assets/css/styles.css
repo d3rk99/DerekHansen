@@ -69,7 +69,7 @@ img {
 
 .site-nav {
   display: flex;
-  gap: 1.4rem;
+  gap: 1.15rem;
 }
 
 .site-nav a {
@@ -117,7 +117,7 @@ img {
 .home-socials {
   display: flex;
   align-items: center;
-  gap: 1.35rem;
+  gap: clamp(0.8rem, 1.4vw, 1.35rem);
 }
 
 .home-quick-nav {
@@ -433,6 +433,52 @@ section {
   margin-top: 1.4rem;
 }
 
+.reel-feature-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(320px, 1.28fr);
+  gap: clamp(1.2rem, 3vw, 2rem);
+  align-items: center;
+}
+
+.reel-feature-copy p:not(.eyebrow) {
+  color: var(--muted);
+  max-width: 58ch;
+}
+
+.reel-player-card,
+.reel-page-player {
+  background: linear-gradient(180deg, rgba(20, 27, 35, 0.95), rgba(16, 22, 29, 0.95));
+  border: 1px solid rgba(64, 215, 230, 0.24);
+  border-radius: 0.9rem;
+  box-shadow: var(--shadow);
+  padding: 0.7rem;
+}
+
+.reel-player-card video,
+.reel-page-player video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  background: #05080d;
+  border-radius: 0.55rem;
+}
+
+.reel-hero {
+  padding-bottom: 2.8rem;
+}
+
+.reel-page {
+  padding-top: 2rem;
+}
+
+.reel-page-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
 .skills-list {
   list-style: none;
   padding: 0;
@@ -744,7 +790,8 @@ textarea:focus {
 @media (max-width: 860px) {
   .about-grid,
   .broadcast-experience,
-  .contact-layout {
+  .contact-layout,
+  .reel-feature-grid {
     grid-template-columns: 1fr;
   }
 

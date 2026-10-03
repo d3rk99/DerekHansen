@@ -10,7 +10,7 @@
 //    image: 'assets/images/project-image.svg'
 window.portfolioItems = [
   {
-    title: 'Say Something',
+    title: 'Come Back',
     tags: ['Narrative', 'Educational'],
     media: {
       type: 'video',
@@ -19,7 +19,7 @@ window.portfolioItems = [
     },
     image: 'assets/Videos/SaySomthing.png',
     description:
-      'A narrative-driven student project, this cinematic interpretation of “Say Something” explores a dystopian tone shaped by guilt, memory, and emotional distance. The story unfolds through visual language rather than dialogue, relying on composition, movement, and timing to carry the narrative without heavy exposition. I led production as a solo producer from concept through final edit, including directing, cinematography, and post-production, while coordinating with professional actors and maintaining a clear creative vision. Though heavily planned in pre-production, execution followed a guerrilla-style approach that used natural light, time of day, and weather conditions to preserve visual consistency and tone. The result balances intentional design with on-the-fly problem solving, demonstrating creative direction and technical adaptability in a constrained production environment.',
+      'A narrative-driven student project, this cinematic interpretation of “Come Back” explores a dystopian tone shaped by guilt, memory, and emotional distance. The story unfolds through visual language rather than dialogue, relying on composition, movement, and timing to carry the narrative without heavy exposition. I led production as a solo producer from concept through final edit, including directing, cinematography, and post-production, while coordinating with professional actors and maintaining a clear creative vision. Though heavily planned in pre-production, execution followed a guerrilla-style approach that used natural light, time of day, and weather conditions to preserve visual consistency and tone. The result balances intentional design with on-the-fly problem solving, demonstrating creative direction and technical adaptability in a constrained production environment.',
     roles: 'Writer, Producer, Director, Cinematographer, Editor',
     link: 'https://www.youtube.com/watch?v=qrTbU_Yn6QM'
   },
@@ -106,3 +106,4 @@ window.portfolioItems = [
     link: 'https://www.youtube.com/watch?v=4nZUNvA2Z9o'
   }
 ];
+
