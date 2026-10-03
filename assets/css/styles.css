@@ -435,9 +435,15 @@ section {
 
 .reel-feature-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.72fr) minmax(320px, 1.28fr);
+  grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
   gap: clamp(1.2rem, 3vw, 2rem);
   align-items: center;
+}
+
+.reel-feature-copy,
+.reel-player-card,
+.reel-page-player {
+  min-width: 0;
 }
 
 .reel-feature-copy p:not(.eyebrow) {
@@ -451,11 +457,13 @@ section {
   border: 1px solid rgba(64, 215, 230, 0.24);
   border-radius: 0.9rem;
   box-shadow: var(--shadow);
+  overflow: hidden;
   padding: 0.7rem;
 }
 
 .reel-player-card video,
 .reel-page-player video {
+  max-width: 100%;
   width: 100%;
   aspect-ratio: 16 / 9;
   display: block;
